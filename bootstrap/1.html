@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--支持移动设备-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--js库，要在bootstrap。js文件之前引入-->
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+		<!--引入bootstrap.css文件-->
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<!--引入bootstrap.js文件-->
+		<script type="text/javascript" src="../js/bootstrap.js"></script>
+		<style>
+			div {
+				border: 1px solid red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--bootstrap的第一种布局容器-->
+		<div class="container">
+			<div class="text-center">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div class="col-md-3">12321</div>
+			<div></div>
+
+			<!-- margin-top:10px    这个表格局上面的距离是10px   -->
+			<table class="table" style="margin-top:200px;margin-left: 100px;margin-right: 1100px;" border="1px">
+				<tr>
+					<td border="1px">1</td>
+				</tr>
+				<tr border="1px">
+					<td>1</td>
+				</tr>
+			</table>
+			<!--    内聯樣式 ：所有的東西都在同一行       -->
+			<ul class="list-inline">
+				<li>123</li>
+				<li>123</li>
+				<li>123</li>
+				<li>123</li>
+				<li>123</li>
+			</ul>
+
+			<select style="margin-top: 20px;" class="form-control">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			<input style="margin-top: 30px;" class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+			 <button type="submit" class="btn btn-primary">Submit</button>
+			 
+			 
+			 <div>
+			 	<div style="float: left;">1</div>
+			 	<div style="float: left;">1</div>
+			 	<div style="float: right;">1</div>
+			 	<div>1</div>
+			 </div>
+			 
+		</div>
+
+	</body>
+
+</html>
