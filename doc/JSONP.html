@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<script>
+			function jsonp() {
+
+				$.ajax({
+					url : "test.html",
+					type : 'GET',
+					data: "name=John&location=Boston",
+					dataType : 'jsonp',
+					success: function() {
+						$(this).addClass("done");
+					}
+				});
+
+			}
+		</script>
+
+	</body>
+
+</html>
