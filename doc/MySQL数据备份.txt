@@ -1,0 +1,10 @@
+定时任务：https://www.cnblogs.com/kaituorensheng/p/4494321.html
+定时任务：http://blog.csdn.net/chenguolinblog/article/details/37936865
+expect：https://www.cnblogs.com/lzrabbit/p/4298794.html
+expect：http://xstarcd.github.io/wiki/shell/expect.html
+expect：http://www.jb51.net/article/103075.htm
+expect安装：http://www.cnblogs.com/kevingrace/p/5900303.html
+
+
+ssh登录问题：https://www.cnblogs.com/huanghongbo/p/6254400.html
+ssh登录问题：http://blog.csdn.net/kimsoft/article/details/5865418
