@@ -1,4 +1,4 @@
-双列集合
+Map集合
 键不可重复(HashSet)   值可以重复
 
 HashMap集合
