@@ -11,3 +11,8 @@ LinkedHashMap集合
 1.采用的是哈希表加链表存储(数组加双向链表)
 2.链表保证了存储顺序的一致
 3.用HashCode()和equals()方法保持键的唯一
+
+
+
+静态导入格式：
+import static XXX.YYY;   导入后YYY可直接使用。
