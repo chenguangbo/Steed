@@ -1,0 +1,110 @@
+ll -a      查询所有包含隐藏文件
+ll -t      排序(根据时间)
+ll -alt    简写
+
+
+
+
+Linux目录结构
+etc 所有配置文件所在目录
+dev Linux驱动
+home 除root用户其他用户登录会在home目录
+
+pwd 当前目录
+mkdir 创建文件夹
+
+d    文件夹
+-    号文件
+
+rmdir  移除空文件夹
+
+less (-m  查看百分百   ,-N行号)    只能查看
+
+空格下翻  B是上翻
+
+
+tail -f ip,txt 查看日志文件
+
+
+mv    移动
+
+rm -rf 文件夹   删除文件   文件夹
+
+
+find / -name mysql  查找命令
+ 
+
+     全磁盘  名字	
+
+<-------------------------------------------------
+vim as.txt 创建新的文件
+
+esc -> :wq        保存
+      写并保存
+
+yy       赋值
+p    	 粘贴
+
+
+回到顶部  gg
+shift+g底部
+
+
+dd   删除 整行
+:q!  强退
+u   撤销操作
+
+vim end 
+------------------------------------------------------------->
+
+grep  过滤
+
+ps -ef | grep -i  aaa
+	  不区分大小写
+
+kill -9  1052
+         端口号
+
+
+
+
+
+
+tar -zcvf movle.tar movie(这是文件名)
+
+tar -zxvf movle.tar       解压
+
+
+
+shutdown -r now  重启
+shutdown -h now  关机
+
+
+setup  改IP
+
+
+chmod  777  所有权限 777
+
+chmod 777 文件名
+
+
+3.make  PREFIX=/usr/local/redis  install
+
+
+
+redis 开事物   multi 
+提交事物     exec
+
+
+
+
+
+
+
+
+
+
+
+
+
+
